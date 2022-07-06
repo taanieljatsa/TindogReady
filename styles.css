@@ -1,0 +1,196 @@
+/* Headings*/
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.feature-title {
+  font-weight: 700;
+}
+
+.testimonial-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
+.pricing-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
+.pricing-p {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.card-title {
+  font-family: "Montserrat";
+  font-size: 2rem;
+}
+
+.cta-heading {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 5% 20% 0;
+}
+
+/* Navigation-bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+  margin: auto 2rem;
+}
+
+/* Title*/
+.title-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Ilma selle divita ei saa sektsiooni pilti järgmise sektsiooni alla peitu. Selleks, et pilt ei l2heks yle ekraani liiga suureks tuli talle eraldi parent div teha ja seda seadistada!*/
+.title-image-div {
+  position: relative;
+  width: 100%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 10%;
+}
+
+@media (max-width: 1028px) {
+  .title-section {
+    text-align: center;
+  }
+
+  .download-button {
+    margin: 5% 3%;
+  }
+
+  .title-image {
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+
+/* Features+icons*/
+.feature-section {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-column {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-p {
+  color: #8f8f8f;
+}
+
+/* Testimonials*/
+.testimonials-section {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Kui siia lisada padding kogu sektsiooni asemel siis saab liigutamis nupud ekraani serva!*/
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press-section*/
+.press-section {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-picture {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*  Pricing section, siin on padding 100px protsentide asemel, et oleks mugavam v2iksematel ekraanidel */
+.pricing-section {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  line-height: 2rem;
+}
+
+/* CTA-Section*/
+.cta-section {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 2% 0;
+}
+
+/* Footer-Section*/
+.footer {
+  background-color: white;
+  text-align: center;
+  margin: 7% auto 7%;
+}
+
+.f-down-button {
+  margin: 5% 1%;
+}
+
+.f-brand {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.p-copyright {
+  color: gray;
+  font-weight: 500;
+}
